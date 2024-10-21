@@ -224,6 +224,7 @@ $utilities: map-merge(
         state: hover focus,
       )
     ),
+
     // extend bg/text opacity for hover state
     "bg-opacity-x-hover": (
       css-var: true,
@@ -248,7 +249,6 @@ $utilities: map-merge(
         100: 1
       )
     ),
-
   ),
 );
 
@@ -261,6 +261,9 @@ $utilities: map-merge(
 // components
 @import "../node_modules/bootstrap/scss/accordion";
 @import "../node_modules/bootstrap/scss/alert";
+@import "../node_modules/bootstrap/scss/badge";
+@import "../node_modules/bootstrap/scss/breadcrumb";
+@import "../node_modules/bootstrap/scss/button-group";
 @import "../node_modules/bootstrap/scss/buttons";
 @import "../node_modules/bootstrap/scss/card";
 @import "../node_modules/bootstrap/scss/carousel";
