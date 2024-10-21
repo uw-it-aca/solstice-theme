@@ -12,7 +12,7 @@
   ],
   "exports": {
     "./dist/solstice.scss": "./dist/solstice.scss",
-    "./dist/solstice.css": "./dist/solstice.css",
+    "./dist/solstice.min.css": "./dist/solstice.min.css",
     "./dist/solstice.css.map": "./dist/solstice.css.map"
   },
   "scripts": {
