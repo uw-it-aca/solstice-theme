@@ -240,6 +240,22 @@ $utilities: map-merge(
         state: hover focus,
       )
     ),
+    // ff-xxxx
+    "font-family":
+    (
+      property: font-family,
+      class: ff,
+      values: (
+        "open-sans": (
+          "Open Sans",
+          sans-serif,
+        ),
+        "encode-sans": (
+          "Encode Sans Condensed",
+          sans-serif,
+        ),
+      ),
+    )
   ),
 );
 
