@@ -110,8 +110,7 @@ $golds: (
 
 // override theme colors
 $theme-colors: (
-  // default
-  "secondary": $secondary,
+  // defaults
   "success": $success,
   "info": $info,
   "warning": $warning,
@@ -120,6 +119,7 @@ $theme-colors: (
 
   // override
   "primary": $blue2,
+  "secondary": $blue2-100,
   "danger": $red2
 );
 
@@ -151,6 +151,10 @@ $custom-colors: (
   // new solstice foundations
   "brand": $purple2,
   // bg-brand, text-brand, table-brand, btn-brand, link-brand
+
+  // grayscale (button)
+  "gray-primary": $gray-600,
+  "gray-secondary": $gray-200,
 );
 
 // merge the default bootstrap + custom color maps
