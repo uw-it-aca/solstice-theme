@@ -3,7 +3,7 @@ name: Test
 
 env:
   # Release name must match "repo" value in docker/*-values.yml
-  RELEASE_NAME: solstice-vue
+  RELEASE_NAME: solstice-theme
 
 on:
   push:
