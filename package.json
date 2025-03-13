@@ -16,7 +16,7 @@
     "./dist/solstice.css.map": "./dist/solstice.css.map"
   },
   "scripts": {
-    "sass": "sass --load-path=./node_modules/ dist/solstice.scss dist/solstice.min.css --style compressed",
+    "sass": "sass --load-path=./node_modules/ dist/solstice.scss dist/solstice.min.css --style compressed --no-source-map",
     "stylelint": "stylelint '**/*.{vue,scss}'"
   },
   "dependencies": {
