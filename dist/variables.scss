@@ -178,7 +178,7 @@ $extra-font-sizes: (
 );
 $font-sizes: map-merge($font-sizes, $extra-font-sizes);
 
- // override btn-secondary default color
- .btn-secondary {
+ // override btn-secondary and btn-link default color
+ .btn-secondary, .btn-link {
   color: $blue-600 !important;
 }
