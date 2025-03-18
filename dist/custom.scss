@@ -43,7 +43,112 @@
   }
 }
 
- // override btn-secondary and btn-link default color
- .btn-secondary, .btn-link {
+// override btn-secondary default color
+.btn-secondary,
+.btn-link {
   color: $blue-600 !important;
+}
+
+// academic terms
+.bg-autumn {
+  background-color: #ffc8b7 !important;
+  --bs-bg-opacity: 1;
+}
+
+.bg-winter {
+  background-color: #cdf !important;
+  --bs-bg-opacity: 1;
+}
+
+.bg-spring {
+  background-color: #cfc !important;
+  --bs-bg-opacity: 1;
+}
+
+.bg-summer {
+  background-color: #fcf990 !important;
+  --bs-bg-opacity: 1;
+}
+
+// decorative palette
+.bg-decorative-1 {
+  background-color: #ac4bb9 !important;
+  --bs-bg-opacity: 1;
+}
+
+.bg-decorative-2 {
+  background-color: #008099 !important;
+  --bs-bg-opacity: 1;
+}
+
+.bg-decorative-3 {
+  background-color: #bd4e05 !important;
+  --bs-bg-opacity: 1;
+}
+
+.bg-decorative-4 {
+  background-color: #787a00 !important;
+  --bs-bg-opacity: 1;
+}
+
+.bg-decorative-5 {
+  background-color: #c84674 !important;
+  --bs-bg-opacity: 1;
+}
+
+.bg-decorative-6 {
+  background-color: #735696 !important;
+  --bs-bg-opacity: 1;
+}
+
+.bg-decorative-7 {
+  background-color: #a06b22 !important;
+  --bs-bg-opacity: 1;
+}
+
+.bg-decorative-8 {
+  background-color: #374dc2 !important;
+  --bs-bg-opacity: 1;
+}
+
+[data-bs-theme="dark"] {
+  .bg-decorative-1 {
+    background-color: #bd6fc7 !important;
+    --bs-bg-opacity: 1;
+  }
+
+  .bg-decorative-2 {
+    background-color: #3399ad !important;
+    --bs-bg-opacity: 1;
+  }
+
+  .bg-decorative-3 {
+    background-color: #ca7137 !important;
+    --bs-bg-opacity: 1;
+  }
+
+  .bg-decorative-4 {
+    background-color: #939533 !important;
+    --bs-bg-opacity: 1;
+  }
+
+  .bg-decorative-5 {
+    background-color: #d36b90 !important;
+    --bs-bg-opacity: 1;
+  }
+
+  .bg-decorative-6 {
+    background-color: #8f78ab !important;
+    --bs-bg-opacity: 1;
+  }
+
+  .bg-decorative-7 {
+    background-color: #b3894e !important;
+    --bs-bg-opacity: 1;
+  }
+
+  .bg-decorative-8 {
+    background-color: #5f71ce !important;
+    --bs-bg-opacity: 1;
+  }
 }
