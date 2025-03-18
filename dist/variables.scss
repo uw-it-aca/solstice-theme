@@ -132,6 +132,11 @@ $link-hover-color-dark: $blue2-400;
 // override card border color
 // $card-border-color: $gray-200;
 
+// override form inputs & groups, selects, radio, and checkbox
+$input-border-color: #8c929b;
+$form-check-input-border: 1px solid #8c929b;
+$form-select-border-color: #8c929b;
+
 // 4. include default map overrides
 
 // apply custom theme colors
@@ -177,8 +182,3 @@ $extra-font-sizes: (
   11: 0.625rem,
 );
 $font-sizes: map-merge($font-sizes, $extra-font-sizes);
-
- // override btn-secondary and btn-link default color
- .btn-secondary, .btn-link {
-  color: $blue-600 !important;
-}

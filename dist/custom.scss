@@ -42,3 +42,8 @@
     color: $value !important;
   }
 }
+
+ // override btn-secondary and btn-link default color
+ .btn-secondary, .btn-link {
+  color: $blue-600 !important;
+}
