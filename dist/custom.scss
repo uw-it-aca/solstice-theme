@@ -50,11 +50,18 @@
 }
   */
 
+// brand subtle
 .bg-brand-subtle {
-  background-color: $purple-400 !important;
+  background-color: $purple2-100 !important;
   --bs-bg-opacity: 1;
 }
 
+[data-bs-theme="dark"] {
+  .bg-brand-subtle {
+    background-color: $purple2-900 !important;
+    --bs-bg-opacity: 1;
+  }
+}
 
 // academic terms
 .bg-autumn {
