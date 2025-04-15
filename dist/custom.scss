@@ -50,6 +50,12 @@
 }
   */
 
+.bg-brand-subtle {
+  background-color: $purple-400 !important;
+  --bs-bg-opacity: 1;
+}
+
+
 // academic terms
 .bg-autumn {
   background-color: #ffc8b7 !important;
