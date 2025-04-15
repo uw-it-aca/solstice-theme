@@ -144,7 +144,7 @@ $custom-colors: (
   "purple": #4d307f,
   "dark-purple": #452a78,
   // deprecated for opaque
-  "beige": #e8e3d3,
+  // "beige": #e8e3d3,
   "dark-beige": #85754d,
   "light-beige": #faf8f4,
   "mid-beige": #ab9765,
@@ -155,6 +155,8 @@ $custom-colors: (
 
   // new solstice foundations
   "brand": $purple2,
+  "beige": $beige,
+
   // bg-brand, text-brand, table-brand, btn-brand, link-brand
 
   // grayscale (button)
