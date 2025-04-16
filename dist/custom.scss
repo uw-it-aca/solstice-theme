@@ -50,23 +50,31 @@
 }
   */
 
-// brand and beige subtle
-.bg-brand-subtle {
+// uw brand palette (subtles)
+.bg-spirit-purple-subtle {
   background-color: $purple2-100 !important;
   --bs-bg-opacity: 1;
 }
-.bg-beige-subtle {
+.bg-husky-gold-subtle {
   background-color: $beige-100 !important;
+  --bs-bg-opacity: 1;
+}
+.bg-spirit-gold-subtle {
+  background-color: $gold-100 !important;
   --bs-bg-opacity: 1;
 }
 
 [data-bs-theme="dark"] {
-  .bg-brand-subtle {
+  .bg-spirit-purple-subtle {
     background-color: $purple2-900 !important;
     --bs-bg-opacity: 1;
   }
-  .bg-beige-subtle {
+  .bg-husky-gold-subtle {
     background-color: $beige-900 !important;
+    --bs-bg-opacity: 1;
+  }
+  .bg-spirit-gold-subtle {
+    background-color: $gold-900 !important;
     --bs-bg-opacity: 1;
   }
 }
