@@ -124,10 +124,10 @@ $theme-colors: (
 );
 
 // default link color overrides
-$link-color: $blue2;
-$link-hover-color: $blue2-800;
-$link-color-dark: $blue2-300;
-$link-hover-color-dark: $blue2-400;
+//$link-color: $blue2;
+//$link-hover-color: $blue2-800;
+//$link-color-dark: $blue2-300;
+//$link-hover-color-dark: $blue2-400;
 
 // override card border color
 // $card-border-color: $gray-200;
@@ -148,14 +148,15 @@ $custom-colors: (
   "dark-beige": #85754d,
   "light-beige": #faf8f4,
   "mid-beige": #ab9765,
-  "gold": #ffbc24,
+  //"gold": #ffbc24,
   "teal": #4c7286,
   "light-gray": #e8e8e8,
   "gray": #e9ecef,
 
-  // new solstice foundations
-  "brand": $purple2,
-  "beige": $beige,
+  // themed uw brand palette
+  "spirit-purple": $purple2,
+  "husky-gold": $beige,
+  "spirit-gold" $gold,
 
   // bg-brand, text-brand, table-brand, btn-brand, link-brand
 
