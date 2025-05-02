@@ -351,6 +351,7 @@
   color: $ultra-800 !important;
 }
 
+// subdued buttons
 .btn-subdued-primary {
   color: $blue-600;
 
@@ -367,14 +368,22 @@
   }
 }
 
-.btn.link-primary:hover {
-  border: solid 1px $blue2;
-  text-decoration: none;
+// quiet buttons
+.btn-quiet-primary {
+  color: $blue2 !important;
+
+  &:hover {
+    border: solid 1px $blue2;
+  }
 }
 
-.btn.link-danger:hover {
-  border: solid 1px $red2;
-  text-decoration: none;
+.btn-quiet-danger {
+  color: $red2 !important;
+
+  &:hover {
+    border: solid 1px $red2;
+    text-decoration: none;
+  }
 }
 
 // DARK MODE
@@ -400,8 +409,7 @@
     }
   }
 
-  // override primary outline button
-
+  // override outline buttons
   .btn-outline-primary {
     border-color: $blue2-300;
     color: $blue2-300;
@@ -422,25 +430,21 @@
     }
   }
 
-  .btn-subtle-primary {
-    background-color: rgba($blue-800, var(--bs-bg-opacity)) !important;
-    color: $blue-100;
+  // override quiet buttons
+  .btn-quiet-primary {
+    color: $blue2-300 !important;
 
     &:hover {
-      color: $blue-800;
+      border: solid 1px $blue2-300;
     }
   }
 
-  .btn.link-primary:hover {
-    border: solid 1px $blue2-300;
-    color: $blue2-300 !important;
-    text-decoration: none;
-  }
-
-  .btn.link-danger:hover {
-    border: solid 1px $red2-300;
+  .btn-quiet-danger {
     color: $red2-300 !important;
-    text-decoration: none;
+
+    &:hover {
+      border: solid 1px $red2-300;
+    }
   }
 
   // uw brand palette (subtle dark mode)
