@@ -370,7 +370,8 @@
   }
 }
 
-.link-light, .link-dark {
+.link-light,
+.link-dark {
   opacity: 0.75;
 
   &:hover {
@@ -425,6 +426,10 @@
     background-color: $blue-100;
     color: $blue2-700;
   }
+
+  &:active {
+    border: solid 1px transparent !important;
+  }
 }
 
 .btn-quiet-danger {
@@ -433,6 +438,10 @@
   &:hover {
     background-color: $red-100;
     color: $red-800;
+  }
+
+  &:active {
+    border: solid 1px transparent !important;
   }
 }
 
@@ -489,20 +498,21 @@
     }
 
     &:active {
-      border: solid 1px transparent !important;
+      color: $blue2-300 !important;
     }
   }
 
   .btn-quiet-danger {
-    color: $blue2-300 !important;
+    color: $red2-300 !important;
 
     &:hover {
       color: $red2-800 !important;
     }
 
-    &:active {
-      border: solid 1px transparent !important;
+     &:active {
+      color: $red2-300 !important;
     }
+
   }
 
   // uw brand palette (subtle dark mode)
