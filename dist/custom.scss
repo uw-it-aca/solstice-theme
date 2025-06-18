@@ -487,6 +487,10 @@
     &:hover {
       color: $blue-800 !important;
     }
+
+    &:active {
+      border: solid 1px transparent !important;
+    }
   }
 
   .btn-quiet-danger {
@@ -494,6 +498,10 @@
 
     &:hover {
       color: $red2-800 !important;
+    }
+
+    &:active {
+      border: solid 1px transparent !important;
     }
   }
 
