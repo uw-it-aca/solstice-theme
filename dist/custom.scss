@@ -351,12 +351,61 @@
   color: $ultra-800 !important;
 }
 
-// subdued buttons
-.btn-subdued-primary {
-  color: $blue-600;
+// links
+.link-primary {
+  color: $blue2-500 !important;
 
   &:hover {
-    color: $blue-800;
+    color: $blue2-700 !important;
+  }
+}
+
+.link-quiet-primary {
+  color: $blue2-500 !important;
+  text-decoration: none;
+
+  &:hover {
+    color: $blue2-700 !important;
+    text-decoration: underline;
+  }
+}
+
+.link-light, .link-dark {
+  opacity: 0.75;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+.link-quiet-light {
+  color: $gray-100;
+  opacity: 0.75;
+  text-decoration: none;
+
+  &:hover {
+    opacity: 0.9;
+    text-decoration: underline;
+  }
+}
+
+.link-quiet-dark {
+  color: $gray-900;
+  opacity: 0.75;
+  text-decoration: none;
+
+  &:hover {
+    opacity: 0.9;
+    text-decoration: underline;
+  }
+}
+
+// subdued buttons
+.btn-subdued-primary {
+  color: $blue2-500;
+
+  &:hover {
+    color: $blue2-700;
   }
 }
 
@@ -370,19 +419,20 @@
 
 // quiet buttons
 .btn-quiet-primary {
-  color: $blue2 !important;
+  color: $blue2-500;
 
   &:hover {
-    border: solid 1px $blue2;
+    background-color: $blue-100;
+    color: $blue2-700;
   }
 }
 
 .btn-quiet-danger {
-  color: $red2 !important;
+  color: $red-600;
 
   &:hover {
-    border: solid 1px $red2;
-    text-decoration: none;
+    background-color: $red-100;
+    color: $red-800;
   }
 }
 
@@ -435,15 +485,15 @@
     color: $blue2-300 !important;
 
     &:hover {
-      border: solid 1px $blue2-300;
+      color: $blue-800 !important;
     }
   }
 
   .btn-quiet-danger {
-    color: $red2-300 !important;
+    color: $blue2-300 !important;
 
     &:hover {
-      border: solid 1px $red2-300;
+      color: $red2-800 !important;
     }
   }
 

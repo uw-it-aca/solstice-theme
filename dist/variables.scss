@@ -462,6 +462,9 @@ $input-border-color: $secondary;
 $form-check-input-border: 1px solid $secondary;
 $form-select-border-color: $secondary;
 
+// table striping starts on even row
+$table-striped-order: even;
+
 // 4. include default map overrides
 
 // apply custom theme colors
