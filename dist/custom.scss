@@ -445,6 +445,12 @@
   }
 }
 
+// table striped
+
+.table-body-secondary th {
+  background-color: $gray-200;
+}
+
 // DARK MODE
 
 [data-bs-theme="dark"] {
@@ -514,6 +520,12 @@
     }
 
   }
+
+  // table striping
+  .table-body-secondary th {
+    background-color: #343a40;
+  }
+
 
   // uw brand palette (subtle dark mode)
 

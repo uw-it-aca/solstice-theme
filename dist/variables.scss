@@ -464,6 +464,12 @@ $form-select-border-color: $secondary;
 
 // table striping starts on even row
 $table-striped-order: even;
+$table-striped-bg-factor: 0.03;
+$table-striped-bg: rgba(
+  var(--#{$prefix}emphasis-color-rgb),
+  $table-striped-bg-factor
+);
+
 
 // 4. include default map overrides
 
