@@ -451,11 +451,11 @@ $enable-cssgrid: true;
 // override dropdown active color with new blue
 $dropdown-link-active-bg: $blue2;
 
-// override default link colors
-$link-color: $blue2;
-$link-hover-color: $blue2-600;
+// override default link colors (+2 on hover)
+$link-color: $blue2-500;
+$link-hover-color: $blue2-700;
 $link-color-dark: $blue2-300;
-$link-hover-color-dark: $blue2-400;
+$link-hover-color-dark: $blue2-500;
 
 // override form inputs & groups, selects, radio, and checkbox
 $input-border-color: $secondary;
@@ -470,7 +470,6 @@ $table-striped-bg: rgba(
   $table-striped-bg-factor
 );
 
-
 // 4. include default map overrides
 
 // apply custom theme colors
@@ -478,20 +477,21 @@ $custom-colors: (
   // deprecated (do not delete yet)
   "purple": #4d307f,
   "dark-purple": #452a78,
+  // "beige": #e8e3d3,
   "dark-beige": #85754d,
   "light-beige": #faf8f4,
   "mid-beige": #ab9765,
+  // "gold": #ffbc24,
   "teal": #4c7286,
   "light-gray": #e8e8e8,
   "gray": #e9ecef,
   "brand": $purple2,
-
-  // grayscale (buttons)
+  // grayscale (button)
   "gray-primary": $gray-600,
   "gray-secondary": $gray-200,
 
   // subdued (used for subdued buttons)
-  "subdued-primary": $blue-100,
+  "subdued-primary": $blue2-100,
   "subdued-danger": $red2-100,
 
   // uw brand palette
