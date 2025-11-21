@@ -370,6 +370,25 @@
   }
 }
 
+.link-danger {
+  color: $red2-500 !important;
+
+  &:hover {
+    color: $red2-700 !important;
+  }
+}
+
+.link-quiet-danger {
+  color: $red2-500 !important;
+  text-decoration: none;
+
+  &:hover {
+    color: $red2-700 !important;
+    text-decoration: underline;
+  }
+}
+
+
 .link-light {
   opacity: 0.6;
 
@@ -490,6 +509,16 @@
     &:hover {
       color: $red2-400 !important;
       text-decoration-color: $red2-400 !important;
+    }
+  }
+
+   .link-quiet-danger {
+    color: $red2-300 !important;
+    text-decoration: none;
+
+    &:hover {
+      color: $red2-400 !important;
+      text-decoration: underline;
     }
   }
 
