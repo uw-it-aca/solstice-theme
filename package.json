@@ -17,18 +17,16 @@
   },
   "scripts": {
     "sass": "sass --load-path=./node_modules/ dist/solstice.scss dist/solstice.min.css --style compressed --no-source-map",
-    "stylelint": "stylelint '**/*.{vue,scss}'"
+    "stylelint": "stylelint '**/*.{css,scss}'"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
-    "bootstrap": "^5.3.3",
-    "bootstrap-icons": "^1.11.3"
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1"
   },
   "devDependencies": {
-    "prettier": "^3.3.3",
-    "sass": "^1.79.5",
-    "stylelint": "^16.10.0",
-    "stylelint-config-recommended-scss": "^14.1.0",
-    "stylelint-config-standard-scss": "^13.1.0"
+    "sass": "^1.97.2",
+    "stylelint": "^16.26.1",
+    "stylelint-config-standard-scss": "^16.0.0"
   }
 }

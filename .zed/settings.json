@@ -1,0 +1,12 @@
+{
+  "format_on_save": "off",
+  "lsp": {
+    "stylelint-lsp": {
+      "settings": {
+        "stylelint": {
+          "validate": ["css", "scss"],
+        },
+      },
+    },
+  },
+}

@@ -251,6 +251,10 @@
   color: $gold-800 !important;
 }
 
+#test {
+  color: red !important;
+}
+
 // academic calendar (bg subtles)
 .bg-autumn-subtle {
   background-color: rgba($scarlet-200, var(--bs-bg-opacity)) !important;
@@ -388,7 +392,6 @@
   }
 }
 
-
 .link-light {
   opacity: 0.6;
 
@@ -512,7 +515,7 @@
     }
   }
 
-   .link-quiet-danger {
+  .link-quiet-danger {
     color: $red2-300 !important;
     text-decoration: none;
 
