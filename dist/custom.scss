@@ -1,3 +1,5 @@
+// working theme file - sync with custom.scss on solstice-theme repo
+
 // semantic palette
 @each $key, $value in $yellows {
   .bg-yellow-#{$key} {
@@ -251,10 +253,6 @@
   color: $gold-800 !important;
 }
 
-#test {
-  color: red !important;
-}
-
 // academic calendar (bg subtles)
 .bg-autumn-subtle {
   background-color: rgba($scarlet-200, var(--bs-bg-opacity)) !important;
@@ -392,27 +390,45 @@
   }
 }
 
-.link-light {
-  opacity: 0.6;
+.link-body {
+  color: $gray-900 !important;
 
   &:hover {
-    opacity: 0.9;
+    color: $gray-700 !important;
+  }
+}
+
+.link-quiet-body {
+  color: $gray-900 !important;
+  text-decoration: none;
+
+  &:hover {
+    color: $gray-700 !important;
+    text-decoration: underline;
+  }
+}
+
+.link-light {
+  opacity: 0.7;
+
+  &:hover {
+    opacity: 1;
   }
 }
 
 .link-quiet-light {
   color: $gray-100;
-  opacity: 0.6;
+  opacity: 0.7;
   text-decoration: none;
 
   &:hover {
-    opacity: 0.9;
+    opacity: 1;
     text-decoration: underline;
   }
 }
 
 .link-dark {
-  opacity: 0.7;
+  opacity: 0.8;
 
   &:hover {
     opacity: 1;
@@ -421,7 +437,7 @@
 
 .link-quiet-dark {
   color: $gray-900;
-  opacity: 0.7;
+  opacity: 0.8;
   text-decoration: none;
 
   &:hover {
@@ -437,6 +453,10 @@
   &:hover {
     color: $blue2-800;
   }
+
+  &:focus-visible {
+    outline: solid 4px $blue2-100;
+  }
 }
 
 .btn-subdued-danger {
@@ -444,6 +464,10 @@
 
   &:hover {
     color: $red-800;
+  }
+
+  &:focus-visible {
+    outline: solid 4px $red-100;
   }
 }
 
@@ -459,6 +483,10 @@
   &:active {
     border: solid 1px transparent !important;
   }
+
+  &:focus-visible {
+    outline: solid 4px $blue2-100;
+  }
 }
 
 .btn-quiet-danger {
@@ -471,6 +499,10 @@
 
   &:active {
     border: solid 1px transparent !important;
+  }
+
+  &:focus-visible {
+    outline: solid 4px $red-100;
   }
 }
 
@@ -521,6 +553,24 @@
 
     &:hover {
       color: $red2-400 !important;
+      text-decoration: underline;
+    }
+  }
+
+  .link-body {
+    color: $gray-300 !important;
+
+    &:hover {
+      color: $gray-500 !important;
+    }
+  }
+
+  .link-quiet-body {
+    color: $gray-300 !important;
+    text-decoration: none;
+
+    &:hover {
+      color: $gray-500 !important;
       text-decoration: underline;
     }
   }
