@@ -1,7 +1,7 @@
 {
   "name": "solstice-theme",
   "type": "module",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "private": true,
   "main": "./dist/solstice.scss",
   "files": [
@@ -25,8 +25,8 @@
     "bootstrap-icons": "^1.13.1"
   },
   "devDependencies": {
-    "sass": "^1.97.2",
-    "stylelint": "^16.26.1",
-    "stylelint-config-standard-scss": "^16.0.0"
+    "sass": "^1.97.3",
+    "stylelint": "^17.0.0",
+    "stylelint-config-standard-scss": "^17.0.0"
   }
 }
