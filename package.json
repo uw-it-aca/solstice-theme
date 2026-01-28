@@ -17,7 +17,8 @@
   },
   "scripts": {
     "sass": "sass --load-path=./node_modules/ dist/solstice.scss dist/solstice.min.css --style compressed --no-source-map",
-    "stylelint": "stylelint '**/*.{css,scss}'"
+    "oxfmt": "oxfmt",
+    "oxfmt:check": "oxfmt --check"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
@@ -25,8 +26,7 @@
     "bootstrap-icons": "^1.13.1"
   },
   "devDependencies": {
-    "sass": "^1.97.3",
-    "stylelint": "^17.0.0",
-    "stylelint-config-standard-scss": "^17.0.0"
+    "oxfmt": "^0.27.0",
+    "sass": "^1.97.3"
   }
 }
