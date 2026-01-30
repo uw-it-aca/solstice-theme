@@ -1,15 +1,15 @@
 {
   "name": "solstice-theme",
-  "type": "module",
   "version": "1.0.7",
   "private": true,
-  "main": "./dist/solstice.scss",
   "files": [
     "dist",
     "LICENSE",
     "package.json",
     "README.md"
   ],
+  "type": "module",
+  "main": "./dist/solstice.scss",
   "exports": {
     "./dist/solstice.scss": "./dist/solstice.scss",
     "./dist/solstice.min.css": "./dist/solstice.min.css",

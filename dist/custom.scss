@@ -1,4 +1,5 @@
-// working theme file - sync with custom.scss on solstice-theme repo
+// COPY: 'custom.scss' from the 'solstice-theme' repository
+// RELEASE: run 'npm run sass' to generate a new 'solstice.min.css' file - release version
 
 // semantic palette
 @each $key, $value in $yellows {
