@@ -1,12 +1,25 @@
 {
-  "format_on_save": "off",
+  // ignore eslint
+  "language_servers": ["oxfmt"],
   "lsp": {
-    "stylelint-lsp": {
-      "settings": {
-        "stylelint": {
-          "validate": ["css", "scss"],
+    "oxfmt": {
+      "initialization_options": {
+        "settings": {
+          "configPath": null,
+          //"run": "onSave",
         },
       },
+    },
+  },
+  // ... other settings
+  "languages": {
+    "CSS": {
+      "formatter": { "language_server": { "name": "oxfmt" } },
+      "format_on_save": "off",
+    },
+    "SCSS": {
+      "formatter": { "language_server": { "name": "oxfmt" } },
+      "format_on_save": "off",
     },
   },
 }

@@ -1,4 +1,8 @@
-// working theme file - sync with custom.scss on solstice-theme repo
+// BOILERPLATE INSTRUCTIONS
+// COPY: 'custom.scss' from the 'solstice-theme' repository
+// GENERATE: run 'npm run sass' to generate a new 'solstice.min.css' file - release version
+// DUPLICATE: copy 'solstice.min.css' to 'solstice-1.0.x.min.css'
+// RELEASE:  corresponding repository version
 
 // semantic palette
 @each $key, $value in $yellows {
